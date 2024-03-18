@@ -9,17 +9,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
-	int n1,n2,n3,soma = 0;
+	int n1,n2,n3,diferenca,soma = 0;
 	printf("Digite 3 numeros: ");
 	scanf("%d %d %d",&n1,&n2,&n3);	
 	
 	soma = n1 + n2 + n3;
 	
 	if(n1 > n2 && n1 > n3)
-		printf("%d",n1);
-	else if(n2 > n3 && n2 > n1)
-		printf("%d",n2);
-	
+		if( soma > n1 * 2)
+			diferenca = soma - n1;
+			printf("%d",diferenca);
+			
+	if(n2 > n1 && n2 > n3)
+		if(soma > n2 * 2)
+			diferenca =  soma - n2;
+			printf("%d",diferenca);
+			
+	if(n3 > n1 && n3 > n2)
+		if(soma > n3 * 2)
+			diferenca = soma - n3;
+			printf("%d",diferenca);
+		
+	return 0;	
 	
 }
 
