@@ -1,1 +1,1 @@
-# Logica_de_Programacao-C
+# Lógica de Programação com linguagem C
