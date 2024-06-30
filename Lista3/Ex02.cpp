@@ -1,7 +1,8 @@
 /*
 	Name: Lívia Nicole
 	Date: 28/06/24 20:05
-	Description: 2.	Faça um programa que escreva os valores de 1 até 10 em ordem inversa na tela. 
+	Description:RESOLVA OS EXERCÍCIOS USANDO SOMENTE O LAÇO WHILE. 
+	 2.	Faça um programa que escreva os valores de 1 até 10 em ordem inversa na tela. 
 */
 #include <stdio.h>
 int main(){
