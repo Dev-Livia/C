@@ -12,13 +12,11 @@ o	726: 1,2,3,6,11,22,33,66,121,242,363,726
 int main() {
     int num, i = 1;
 
-    // Solicita ao usuário que insira um número
+
     printf("Digite um número: ");
     scanf("%d", &num);
 
-    printf("Os divisores de %d são: ", num);
-
-    // Usando do-while para encontrar os divisores
+    printf("Os divisores de %d sao: ", num);
     do {
         if (num % i == 0) {
             printf("%d ", i);
